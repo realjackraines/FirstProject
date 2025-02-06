@@ -14,6 +14,12 @@ class GmailThreadAnalyzer:
         self.service = self._get_gmail_service()
         self.anthropic_client = anthropic.Anthropic(api_key=os.getenv('ANTHROPIC_API_KEY'))
 
+   # Note: You need to set up your Anthropic API key as an environment variable
+# Get your API key from: https://console.anthropic.com/
+# Set it up using: export ANTHROPIC_API_KEY=your-key-here
+api_key = os.getenv('ANTHROPIC_API_KEY')
+
+
     def _get_gmail_service(self):
         """Authenticate and create Gmail service."""
         creds = None
