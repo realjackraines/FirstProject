@@ -249,8 +249,10 @@ Full Thread Details:
 if __name__ == "__main__":
     # Specific Message-IDs to analyze
     message_ids_to_analyze = [
-        'CA+mHjZ8er6XWSAUu28Ri9tLkW2sV+0-x2LnqM_vFKK9Xr4CMvg@mail.gmail.com',
-        'CA+mHjZ_R0pGROezwiH8J2cC4+SeJXH=ZjnKDa4rVxpRPNQSThw@mail.gmail.com'
+        "user1@example.com",
+    "user2@example.com"
+
+        #NOTE: include the emails you want here.
     ]
     
     # Analyze threads and save to Excel
